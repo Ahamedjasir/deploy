@@ -1,0 +1,6 @@
+streamlit
+groq
+requests
+Pillow
+PyPDF2
+python-docx
