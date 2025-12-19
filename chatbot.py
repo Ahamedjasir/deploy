@@ -7,8 +7,8 @@ import PyPDF2
 import docx
 
 # ---------------- CONFIG ----------------
-GROQ_API_KEY = ""
-HF_API_KEY = ""
+GROQ_API_KEY =st.secrets["groqapi"]
+HF_API_KEY =st.secrets["hfapi"]
 
 HF_URL = f"https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell"
 
